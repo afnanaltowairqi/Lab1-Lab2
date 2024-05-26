@@ -1,9 +1,9 @@
-/* .para {
+.para {
     color: blueviolet;
 }
 .list {
     border: "1px soild black";
-} */
+}
 .box {
     color: blueviolet;
     background-color: blueviolet;
@@ -12,11 +12,4 @@
     position: absolute;
     left: 500;
     top: 400;
-}
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #afadad;
 }

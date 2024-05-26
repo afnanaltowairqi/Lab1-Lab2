@@ -1,47 +1,49 @@
-// //1
-// let title = document.getElementsByClassName("title")[0]
-// title.style.color ="blue"
-// title.style.background="gray"
-// //2
-// let para = document.getElementById("para")
-// para.style.fontWeight="bold";
-// para.setAttribute("class","para")
-// para.style.backgroundColor="yellow"
+//1
+let title = document.getElementsByClassName("title")[0]
+title.style.color ="blue"
+title.style.background="gray"
+//2
+let para = document.getElementById("para")
+para.style.fontWeight="bold";
+para.setAttribute("class","para")
+para.style.backgroundColor="yellow"
 
-// //3
-// let image = document.getElementsByTagName('img')[0]
-// image.src="space.jpg"
+//3
+let image = document.getElementsByTagName('img')[0]
+image.src="space.jpg"
 
-// //4
-// let list = document.querySelector("ul")
-// //way1
-// // for (i=0; i<3; i++){
-// //     let item = document.createElement("li")
-// //     item.innerText = `Item ${i}`
-// //     list.appendChild(item)
-// // }
+//4
+let list = document.querySelector("ul")
+//way1
+// for (i=0; i<3; i++){
+//     let item = document.createElement("li")
+//     item.innerText = `Item ${i}`
+//     list.appendChild(item)
+// }
 
-// let item = `<li>one<li>
-// <li>two<li>
-// <li>three<li>
-// `
-// list.insertAdjacentHTML("afterbegin",item)
-// list.style.border ="1px soild black"
-// list.style.color = "blue"
+let item = 
+`<li>one<li>
+<li>two<li>
+<li>three<li>
+`
+list.insertAdjacentHTML("afterbegin",item)
+list.style.color = "blue"
 
-// //5
-// let tables = document.querySelector("tabel")
-// let items = `<tr>
-// <td>Emil</td>
-// <td>Tobias</td>
-// <td>Linus</td>
-// </tr>
-// <tr>
-// <td>16</td>
-// <td>14</td>
-// <td>10</td>
-// </tr>
-// `
+//5
+let tables = document.querySelector("tabel")
+let items = `<tr>
+<td>Emil</td>
+<td>Tobias</td>
+<td>Linus</td>
+</tr>
+<tr>
+<td>16</td>
+<td>14</td>
+<td>10</td>
+</tr>
+`
+tables.insertAdjacentHTML("afterbegin",item)
+tables.style.color = "blue"
 
 /* ---------------------Lab 2--------------------- */
 let box = document.querySelector(".box");
