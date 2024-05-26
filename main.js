@@ -33,9 +33,9 @@ let tables = document.querySelector("table")
 let items = `
 <table border=1>
 <tr>
-<th>Emil</th>
-<th>Tobias</th>
-<th>Linus</th>
+<th>coffee</th>
+<th>tea</th>
+<th>juice</th>
 </tr>
 <tr>
 <td>16</td>
