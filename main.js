@@ -14,21 +14,20 @@ image.src="space.jpg"
 
 //4
 let list = document.querySelector("ul")
-//way1
+let item = `<li> coffee </li>
+<li> tea </li>
+<li> juice </li>`
+list.insertAdjacentHTML("afterbegin", item)
+list.style.border ="1px soild black"
+list.setAttribute("class","list")
+list.style.color = "blue"
+
+//way2
 // for (i=0; i<3; i++){
 //     let item = document.createElement("li")
 //     item.innerText = `Item ${i}`
 //     list.appendChild(item)
 // }
-
-let item = `<li>one<li>
-<li>two<li>
-<li>three<li>
-`
-list.insertAdjacentHTML("afterbegin",item)
-list.style.border ="1px soild black"
-list.style.color = "blue"
-
 //5
 let tables = document.querySelector("tabel")
 let items = `<tr>
