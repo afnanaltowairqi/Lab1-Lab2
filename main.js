@@ -21,12 +21,12 @@ let list = document.querySelector("ul")
 //     list.appendChild(item)
 // }
 
-let item = 
-`<li>one<li>
+let item = `<li>one<li>
 <li>two<li>
 <li>three<li>
 `
 list.insertAdjacentHTML("afterbegin",item)
+list.style.border ="1px soild black"
 list.style.color = "blue"
 
 //5
@@ -42,8 +42,6 @@ let items = `<tr>
 <td>10</td>
 </tr>
 `
-tables.insertAdjacentHTML("afterbegin",item)
-tables.style.color = "blue"
 
 /* ---------------------Lab 2--------------------- */
 let box = document.querySelector(".box");
