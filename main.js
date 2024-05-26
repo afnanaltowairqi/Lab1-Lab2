@@ -44,14 +44,32 @@
 // `
 
 /* ---------------------Lab 2--------------------- */
+margin : 0;
+let box = document.querySelector(".box");
+let moveBox = setInterval(moving , 1000);
+function moving() {
+    let left = Math.random() *60;
+    let top = Math.random() *60;
+    let right = Math.random() *60;
+    let bottom = Math.random() *60;
+
+    box.style.marginLeft = left + "vw";
+    box.style.marginTop = top + "vh";
+    box.style.marginTop = right + "vw";
+    box.style.marginTop = bottom + "vh";
+
+    box.style.backgroundColor= "#" + ((1 << 24) * Math.random() | 0).toString(16).padStart(6, "0")
+    }
+moving();
+
 // let cube = document.getElementsByClassName("box")[0]
 // setInterval(moveCube,1000);
-var x=600;
-document.onload=function() {
-    let box = document.getElementsByClassName("box");
-    setInter
-    setInterval.style.top = x;
-},10;
+// var x=600;
+// document.onload=function() {
+//     let box = document.getElementsByClassName("box");
+//     setInter
+//     setInterval.style.top = x;
+// },10;
 
     // document.getElementsByClassName("box")[0]
     // Math.round(Math.random() * (3000 - 500)) + 500;
