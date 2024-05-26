@@ -44,7 +44,6 @@
 // `
 
 /* ---------------------Lab 2--------------------- */
-margin : 0;
 let box = document.querySelector(".box");
 let moveBox = setInterval(moving , 1000);
 function moving() {
