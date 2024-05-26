@@ -29,18 +29,28 @@ list.style.color = "blue"
 //     list.appendChild(item)
 // }
 //5
-let tables = document.querySelector("tabel")
-let items = `<tr>
-<td>Emil</td>
-<td>Tobias</td>
-<td>Linus</td>
+let tables = document.querySelector("table")
+let items = `
+<table border=1>
+<tr>
+<th>Emil</th>
+<th>Tobias</th>
+<th>Linus</th>
 </tr>
 <tr>
 <td>16</td>
 <td>14</td>
 <td>10</td>
 </tr>
+<tr>
+<td>13</td>
+<td>11</td>
+<td>34</td>
+</tr>
+</table>
 `
+tables.insertAdjacentHTML("afterbegin", items)
+tables.style.border ="1px soild black";
 
 /* ---------------------Lab 2--------------------- */
 let box = document.querySelector(".box");
